@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  background-color: #F8F9F9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.name {
+  margin: 20px 30px 20px 30px;
+  color: #062F4F;
+}
+
+.subtitle {
+  margin: 20px 30px 20px 30px;
+  color: white;
+  font-size: 50pt;
+}
+
+#about {
+  padding: 90px 60px 200px 60px;
+}
+#about h2 {
+  font-family: "Monda", sans-serif;
+  font-size: 30pt;
+}
+#about p {
+  font-family: "Monda", sans-serif;
+  font-size: 15pt;
+}
+
+#technology {
+  padding: 100px 60px 110px 60px;
+}
+#technology h2 {
+  font-family: "Monda", sans-serif;
+  font-size: 30pt;
+}
+
+.column2 {
+  padding-top: 40px;
+  padding-left: 55px;
+}
+
+#projects {
+  padding: 100px 60px 100px 60px;
+}
+#projects h2 {
+  font-family: "Monda", sans-serif;
+  font-size: 30pt;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 lightgray;
+  max-width: 330px;
+  margin: 50px;
+  text-align: center;
+  font-family: "Monda", sans-serif;
+  display: inline-block;
+}
+.card h1 {
+  font-size: 25pt;
+  color: #062F4F;
+}
+.card p {
+  font-size: 12pt;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+#contact {
+  padding: 56px 60px 80px 60px;
+}
+#contact h2 {
+  font-family: "Monda", sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  color: #062F4F;
+}
+
+.contact-row {
+  padding-left: 40%;
+}
+.contact-row img {
+  width: 8%;
+  height: 8%;
+}
+
+.linkedin_img_size {
+  padding-left: 42px;
+}
+
+.github_img_size {
+  padding-left: 35px;
+}
+
+#library {
+  background: url("./Images/library.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#downtown {
+  background: url("./Images/downtown.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#drilling {
+  background: url("./Images/drilling.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#kyoto {
+  background: url("./Images/kyoto.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#library {
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0.7;
+}
+
+#downtown, #drilling, #kyoto {
+  width: 100%;
+  height: 48vh;
+  perspective: 1px;
+  transform: translateZ(-1px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Monda", sans-serif;
+  font-size: 55pt;
+  text-align: center;
+  background-color: #4ABDAC;
+  opacity: 0.9;
+  border-radius: 30px 10px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+.python_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 45px;
+}
+
+.c_sharp_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 10px;
+}
+
+.angular_img_size {
+  width: 12%;
+  height: 12%;
+}
+
+.html_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 8px;
+}
+
+.css_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 25px;
+}
+
+.node_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 40px;
+  padding-top: 9px;
+}
+
+.mongodb_img_size {
+  width: 12%;
+  height: 12%;
+  padding: 0px 0px 54px 20px;
+}
+
+.mysql_img_size {
+  width: 12%;
+  height: 12%;
+  padding: 0px 0px 32px 30px;
+}
+
+.asp_net_img_size {
+  width: 12%;
+  height: 12%;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.django_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 20px;
+}
+
+.react_img_size {
+  width: 12%;
+  height: 12%;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.ts_img_size {
+  width: 8%;
+  height: 8%;
+  padding-left: 28px;
+  padding-bottom: 20px;
+}
+
+.js_img_size {
+  width: 25%;
+  height: 25%;
+  padding: 0px 0px 5px 15px;
+}
+
+.sass_img_size {
+  width: 12%;
+  height: 12%;
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #4ABDAC;
+  padding: 40px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+#navbar #logo {
+  font-size: 40px;
+  transition: 0.4s;
+  color: white;
+  font-family: "Monda", sans-serif;
+}
+#navbar a:hover {
+  background-color: #DFDCE3;
+  color: black;
+}
+#navbar a.active {
+  background-color: blue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+  padding-right: 22px;
+}
+#navbar-right a {
+  color: white;
+  font-family: "Monda", sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  #navbar-right {
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
